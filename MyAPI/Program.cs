@@ -27,6 +27,7 @@ namespace MyAPI
 
             app.UseAuthorization();
 
+            app.
 
             app.MapControllers();
 
