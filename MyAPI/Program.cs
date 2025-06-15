@@ -27,6 +27,8 @@ namespace MyAPI
 
             app.UseAuthorization();
 
+            app.UseSwagger();
+
             app.MapControllers();
 
             app.Run();
